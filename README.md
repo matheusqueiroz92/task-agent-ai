@@ -41,6 +41,7 @@ A aplicação também expõe um endpoint de demonstração de agente com ferrame
   - **Filtro por projeto** via `project_slug` quando a pergunta é sobre um projeto específico.
 - Respostas em português, com fallback de contato quando a informação não está nos documentos.
 - **Rate limiting** configurável no endpoint RAG.
+- **Streaming SSE** (`POST /api/rag/stream`) para respostas token a token no frontend.
 - **CORS** restrito ao domínio do portfólio (com suporte a `localhost` em desenvolvimento).
 
 ### Agente matemático (`POST /api/math`)
@@ -366,6 +367,44 @@ curl -X POST http://localhost:3344/api/rag \
 
 ---
 
+### `POST /api/rag/stream`
+
+Mesma funcionalidade do `/api/rag`, porém a resposta é enviada em **tempo real** via **Server-Sent Events (SSE)** — ideal para exibir o texto sendo digitado no frontend.
+
+**Headers:**
+
+```
+Content-Type: application/json
+Accept: text/event-stream
+```
+
+**Body:** igual ao `/api/rag`.
+
+**Resposta de sucesso (200):** stream `text/event-stream` com os eventos:
+
+| Evento | Payload | Descrição |
+|--------|---------|-----------|
+| `status` | `{ "phase": "searching" }` | Agente buscando documentos no vector store |
+| `status` | `{ "phase": "generating" }` | Modelo gerando a resposta |
+| `token` | `{ "text": "Com" }` | Fragmento de texto (acumule no frontend) |
+| `done` | `{ "resposta": "..." }` | Resposta completa (confirmação final) |
+| `error` | `{ "error": "..." }` | Falha durante o stream |
+
+**Erros:** `400` (input vazio), `429` (rate limit), evento `error` no stream em falhas do agente.
+
+**Exemplo com cURL:**
+
+```bash
+curl -N -X POST http://localhost:3344/api/rag/stream \
+  -H "Content-Type: application/json" \
+  -H "Accept: text/event-stream" \
+  -d "{\"input\": \"Quais tecnologias o Matheus usa?\"}"
+```
+
+O endpoint legado `POST /api/rag` permanece disponível para clientes que ainda consomem JSON completo.
+
+---
+
 ### `POST /api/math`
 
 Agente de demonstração para operações matemáticas simples.
@@ -392,11 +431,79 @@ Agente de demonstração para operações matemáticas simples.
 
 ## Integração com o frontend
 
-O chatbot do portfólio consome `POST /api/rag`. Exemplo em JavaScript:
+O chatbot do portfólio pode consumir `POST /api/rag/stream` (recomendado) ou o endpoint legado `POST /api/rag`.
+
+### Streaming (recomendado)
+
+```javascript
+async function perguntarAoChatbotStream(pergunta, { onStatus, onToken } = {}) {
+  const response = await fetch(
+    "https://task-agent-ai-production.up.railway.app/api/rag/stream",
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ input: pergunta }),
+    },
+  );
+
+  if (!response.ok) {
+    throw new Error(`Erro ${response.status}`);
+  }
+
+  const reader = response.body.getReader();
+  const decoder = new TextDecoder();
+  let buffer = "";
+  let resposta = "";
+
+  while (true) {
+    const { done, value } = await reader.read();
+    if (done) break;
+
+    buffer += decoder.decode(value, { stream: true });
+    const chunks = buffer.split("\n\n");
+    buffer = chunks.pop() ?? "";
+
+    for (const chunk of chunks) {
+      if (!chunk.trim() || chunk.startsWith(":")) continue;
+
+      let event = "message";
+      let data = "";
+
+      for (const line of chunk.split("\n")) {
+        if (line.startsWith("event: ")) event = line.slice(7);
+        if (line.startsWith("data: ")) data = line.slice(6);
+      }
+
+      if (!data) continue;
+
+      const payload = JSON.parse(data);
+
+      if (event === "status") onStatus?.(payload.phase);
+      if (event === "token") {
+        resposta += payload.text;
+        onToken?.(payload.text, resposta);
+      }
+      if (event === "done") resposta = payload.resposta;
+      if (event === "error") throw new Error(payload.error);
+    }
+  }
+
+  return resposta;
+}
+
+// Uso no React (exemplo simplificado)
+// setMensagem("");
+// await perguntarAoChatbotStream(pergunta, {
+//   onStatus: (phase) => setStatus(phase === "searching" ? "Buscando..." : "Gerando..."),
+//   onToken: (_token, acumulado) => setMensagem(acumulado),
+// });
+```
+
+### Resposta completa (legado)
 
 ```javascript
 async function perguntarAoChatbot(pergunta) {
-  const response = await fetch("https://sua-api.exemplo.com/api/rag", {
+  const response = await fetch("https://task-agent-ai-production.up.railway.app/api/rag", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ input: pergunta }),
@@ -423,7 +530,7 @@ Métodos permitidos: `GET`, `POST`, `OPTIONS`.
 
 ### Rate limiting
 
-O endpoint `/api/rag` está protegido por rate limit (padrão: 20 requisições por minuto por IP). Ajuste conforme o tráfego esperado:
+O endpoint `/api/rag` e `/api/rag/stream` estão protegidos por rate limit (padrão: 20 requisições por minuto por IP). Ajuste conforme o tráfego esperado:
 
 ```env
 RATE_LIMIT_MAX=30
@@ -432,7 +539,7 @@ RATE_LIMIT_TIME_WINDOW=1 minute
 
 ### Boas práticas
 
-- Exiba um indicador de carregamento — respostas podem levar alguns segundos (busca + LLM).
+- Prefira `/api/rag/stream` para UX com texto aparecendo em tempo real; use `onStatus` para exibir "Buscando documentos..." antes dos tokens.
 - Trate `429` com mensagem amigável pedindo para aguardar.
 - Não exponha `OPENAI_API_KEY` no frontend; toda comunicação com a OpenAI ocorre no backend.
 
@@ -466,7 +573,7 @@ task-agent-ai/
 │   ├── config/
 │   │   └── env.ts            # Validação de env com Zod
 │   ├── routes/
-│   │   ├── rag.routes.ts     # POST /api/rag + rate limit
+│   │   ├── rag.routes.ts     # POST /api/rag, /api/rag/stream + rate limit
 │   │   └── math.routes.ts    # POST /api/math, GET /health
 │   ├── services/
 │   │   ├── rag.service.ts    # Agente RAG + system prompt
