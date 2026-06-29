@@ -1,0 +1,72 @@
+# Serviços, preços e prazos — Matheus Queiroz / AZ Work Center
+
+Matheus Queiroz está disponível tanto para desenvolver novos projetos quanto para novas oportunidades de emprego como desenvolvedor fullstack.
+
+Valores abaixo são referência inicial ("a partir de") — o orçamento final depende de escopo, integrações, design, prazo e complexidade.
+
+---
+
+## Tabela de serviços
+
+| Serviço | Preço (a partir de) | Prazo (a partir de) |
+|---------|---------------------|---------------------|
+| Landing page simples | R$ 500,00 | 2 dias úteis |
+| Landing page exclusiva | R$ 1.000,00 | 5 dias úteis |
+| Automação | R$ 1.500,00 | 5 dias úteis |
+| Blog | R$ 1.000,00 | 7 dias úteis |
+| Site institucional | R$ 1.500,00 | 7 dias úteis |
+| E-commerce | R$ 2.000,00 | 10 dias úteis |
+| CRM | R$ 5.000,00 | 20 dias úteis |
+| ERP | R$ 5.000,00 | 20 dias úteis |
+| Sistema sob demanda | R$ 10.000,00 | A consultar |
+
+---
+
+## Detalhamento por tipo de projeto
+
+### Landing page simples
+Ideal para campanhas, captura de leads ou presença rápida online.
+Inclui layout responsivo, seções essenciais e formulário de contato básico.
+
+### Landing page exclusiva
+Design personalizado, copy orientada a conversão, animações e identidade visual alinhada à marca do cliente.
+
+### Automação
+Integração entre sistemas, fluxos automatizados (e-mail, planilhas, APIs, webhooks), redução de trabalho manual.
+
+### Blog
+CMS ou estrutura para publicação de artigos, categorias, SEO básico e layout responsivo.
+
+### Site institucional
+Site completo para empresas: sobre, serviços, contato, depoimentos, múltiplas páginas.
+
+### E-commerce
+Loja virtual com catálogo, carrinho, checkout e integrações conforme necessidade (pagamento, frete, estoque).
+
+### CRM
+Sistema de relacionamento com clientes: leads, pipeline de vendas, histórico de interações, relatórios.
+
+### ERP
+Gestão empresarial integrada: estoque, vendas, financeiro, usuários, relatórios — similar ao projeto Óticas Queiroz.
+
+### Sistema sob demanda
+Soluções customizadas para necessidades específicas. Escopo e prazo definidos após levantamento de requisitos.
+
+---
+
+## Formas de contratação
+
+- Projeto fechado (escopo e valor definidos)
+- Desenvolvimento por etapas (MVP + evoluções)
+- Freelancer para demandas pontuais
+- CLT ou PJ para oportunidades de emprego fullstack
+
+---
+
+## Como solicitar orçamento
+
+1. Descreva o que precisa (tipo de projeto, funcionalidades, prazo desejado)
+2. Envie mensagem por WhatsApp (77) 98833-4370 ou e-mail contato@matheusqueiroz.dev.br
+3. Matheus retorna com proposta, prazo e próximos passos
+
+Site para mais informações: https://matheusqueiroz.dev.br

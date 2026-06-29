@@ -1,0 +1,42 @@
+# Tipos de projetos que Matheus Queiroz desenvolve
+
+Matheus desenvolve soluções digitais completas como Desenvolvedor Fullstack e pela AZ Work Center.
+
+## Categorias de projeto
+
+- Landing pages (simples e exclusivas)
+- Sites institucionais
+- Blogs
+- E-commerce / lojas virtuais
+- Automações e integrações entre sistemas
+- CRM (gestão de clientes e vendas)
+- ERP (gestão empresarial integrada)
+- Sistemas sob demanda personalizados
+- Aplicações web com IA (chatbots, RAG, insights automatizados)
+- Dashboards e painéis administrativos
+- Plataformas de agendamento
+
+## Exemplos reais no portfólio
+
+- Óticas Queiroz: ERP/gestão empresarial em produção
+- M.Agendy: plataforma de agendamentos para clínicas
+- M.FinnanceAI: finanças pessoais com IA
+- Task Agent AI: chatbot RAG integrado ao portfólio
+- Landing pages para advocacia e outros clientes
+
+## Preços e prazos
+
+Consulte o arquivo info-servicos-precos.txt para tabela completa de valores e prazos estimados.
+
+Resumo rápido:
+- Landing simples: a partir de R$ 500 / 2 dias úteis
+- E-commerce: a partir de R$ 2.000 / 10 dias úteis
+- Sistema sob demanda: a partir de R$ 10.000 / prazo a consultar
+
+## Processo de desenvolvimento
+
+1. Levantamento de requisitos com o cliente
+2. Proposta com escopo, prazo e valor
+3. Desenvolvimento iterativo com feedback
+4. Testes, deploy e entrega
+5. Suporte e evoluções conforme contrato

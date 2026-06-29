@@ -1,0 +1,83 @@
+# Experiência profissional — Matheus Queiroz
+
+Tempo total de experiência: aproximadamente 9 anos e meio (incluindo TI, docência, engenharia de segurança e desenvolvimento web).
+
+---
+
+## AZ Work Center — Diretor Geral / Desenvolvedor Web Fullstack
+Período: abril/2020 – atual | Vitória da Conquista, BA
+
+Fundador e diretor da agência. Responsável por estratégia, gestão e desenvolvimento de soluções digitais para clientes.
+
+Principais atividades:
+- Desenvolvimento de aplicações web completas com React.js, Next.js, Node.js e TypeScript
+- Criação de sistemas de gestão, plataformas de agendamento, e-commerce e automações
+- Integração de APIs de pagamento e sistemas de autenticação
+- Implementação de dashboards com analytics e métricas em tempo real
+- Otimização de performance para múltiplos usuários simultâneos
+- Atendimento a clientes, orçamentos e entrega de projetos
+
+Projetos destacados na AZ Work Center:
+- Sistema Óticas Queiroz (gestão empresarial em produção)
+- M.Agendy (plataforma de agendamentos)
+- M.FinnanceAI (gestão financeira com IA)
+- Sites e landing pages para diversos clientes
+
+---
+
+## CEEPS Adélia Teixeira — Professor de Curso Técnico
+Período: ago/2018 – ago/2019 | Vitória da Conquista, BA
+
+Instrutor de curso técnico com foco em comunicação, resolução de problemas e trabalho em equipe.
+
+Principais atividades:
+- Desenvolvimento de material didático estruturado
+- Apresentações técnicas e capacitação de alunos
+- Gestão de projetos educacionais
+
+Essa experiência reforçou habilidades de comunicação clara — útil hoje em reuniões com clientes e documentação de sistemas.
+
+---
+
+## Óticas Queiroz — Analista de Suporte de TI
+Período: fev/2016 – set/2018 | Itapetinga, BA
+
+Suporte técnico, manutenção de sistemas e gerenciamento de infraestrutura de TI.
+
+Principais atividades:
+- Gerenciamento de rede e infraestrutura
+- Suporte a usuários e treinamento em sistemas
+- Análise de requisitos que influenciaram o desenvolvimento futuro do sistema de gestão da empresa
+
+Essa vivência interna permitiu entender dores reais do negócio antes de construir o sistema completo de gestão.
+
+---
+
+## Engenharia de Segurança do Trabalho (período anterior)
+Atuação como engenheiro de segurança do trabalho, com palestras, minicursos, assessoria, consultoria e docência na área.
+
+Competências transferidas para a carreira tech:
+- Gestão de riscos e processos
+- Comunicação com públicos diversos
+- Conformidade e documentação
+- Liderança e orientação de equipes
+
+---
+
+## Freelancer — Desenvolvedor Web
+Período: vários anos (paralelo às demais atividades)
+
+Desenvolvimento de sites, landing pages e aplicações web para clientes diversos. Base para a transição definitiva ao desenvolvimento fullstack profissional.
+
+---
+
+## Linha do tempo resumida
+
+2009–2015: Graduação em Engenharia da Computação (FAINOR)
+2014–2016: Especialização em Engenharia de Segurança do Trabalho
+2016–2018: Analista de Suporte de TI (Óticas Queiroz)
+2018–2019: Professor técnico (CEEPS)
+2019: Fundação da AZ Work Center
+2020–2021: Especialização em Engenharia de Software
+2022–2023: Formação Fullstack na Trybe
+2025–atual: Projetos em produção (Óticas Queiroz, M.Agendy, portfólio, chatbot com RAG)

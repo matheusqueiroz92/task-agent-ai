@@ -1,0 +1,55 @@
+# Sistema Óticas Queiroz — Gestão Empresarial
+
+slug: oticas-queiroz
+categoria: projeto
+project_name: Óticas Queiroz
+site_producao: https://app.oticasqueiroz.com.br/
+github: https://github.com/matheusqueiroz92/oticas-queiroz-monorepo
+status: em producao
+periodo: fev/2025 – em evolução contínua
+
+## O que é
+
+Sistema completo de gestão empresarial (ERP) desenvolvido para a Óticas Queiroz, empresa real de óticas. Atende múltiplos usuários simultâneos em ambiente de produção — não é projeto de estudo ou protótipo.
+
+## Problema que resolve
+
+A empresa precisava unificar estoque, vendas, financeiro e relatórios em um único sistema, substituindo controles manuais e planilhas. Matheus Queiroz conhecia a operação internamente por ter atuado como Analista de Suporte de TI na empresa antes de desenvolver o sistema.
+
+## Funcionalidades principais
+
+- Controle de estoque e cadastro de produtos
+- Vendas e PDV (ponto de venda)
+- Módulo financeiro integrado
+- Relatórios gerenciais
+- Múltiplos perfis de usuário (administrador, vendedor, etc.)
+- Autenticação e controle de acesso por perfil
+- Dashboard com indicadores operacionais
+
+## Stack tecnológica
+
+- Frontend: React.js, Next.js, TypeScript, Tailwind CSS
+- Backend: Node.js, TypeScript
+- Banco de dados: MongoDB
+- Arquitetura: monorepo
+
+## Arquitetura e decisões técnicas
+
+Monorepo para compartilhar tipos e utilitários entre frontend e backend. MongoDB escolhido pela flexibilidade de schema para módulos com estruturas distintas (estoque, vendas, financeiro). Sistema pensado para escalar com novos módulos sem reescrever a base.
+
+## Desafios e aprendizados
+
+- Modelar regras de negócio reais de uma ótica (estoque, vendas, financeiro integrados)
+- Garantir performance com múltiplos usuários em produção
+- Traduzir necessidades levantadas no suporte de TI em funcionalidades de software
+
+## Perguntas frequentes sobre este projeto
+
+**O Óticas Queiroz está em produção?**
+Sim. O sistema está disponível em https://app.oticasqueiroz.com.br/ e serve a operação real da empresa.
+
+**Quais módulos o sistema possui?**
+Estoque, vendas/PDV, financeiro, relatórios e gestão de usuários com perfis de acesso.
+
+**Quem desenvolveu?**
+Matheus Queiroz, Desenvolvedor Fullstack e fundador da AZ Work Center.

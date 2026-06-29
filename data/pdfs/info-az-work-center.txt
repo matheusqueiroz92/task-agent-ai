@@ -1,0 +1,40 @@
+# AZ Work Center — Agência de Soluções Digitais
+
+## Sobre a empresa
+
+A AZ Work Center é uma agência de soluções digitais fundada em 2019 por Matheus Queiroz, junto com seu pai e seu irmão. A empresa está sediada em Vitória da Conquista, Bahia, e atua no desenvolvimento de sites, aplicações web, sistemas de gestão, automações e soluções sob demanda.
+
+Matheus Queiroz é um dos fundadores e ocupa o cargo de Diretor Geral, além de atuar diretamente no desenvolvimento dos projetos.
+
+## O que a AZ Work Center oferece
+
+- Desenvolvimento de sites e landing pages
+- Aplicações web e sistemas sob demanda
+- E-commerce e lojas virtuais
+- CRM, ERP e sistemas de gestão empresarial
+- Automações de processos e integrações
+- Consultoria e evolução de sistemas existentes
+- Identidade digital e presença online para empresas
+
+## Perfil dos clientes
+
+A agência atende desde pequenos empreendedores e profissionais liberais até empresas que precisam de sistemas completos de gestão — como o caso das Óticas Queiroz.
+
+## Diferenciais
+
+- Fundador com formação em engenharia e experiência técnica hands-on
+- Projetos reais em produção (não apenas protótipos)
+- Visão de negócio além do código
+- Stack moderna e manutenível
+- Comunicação direta com quem desenvolve
+
+## Relação com o portfólio pessoal
+
+O site matheusqueiroz.dev.br funciona como vitrine profissional de Matheus Queiroz, exibindo projetos, habilidades e formas de contato. Muitos projetos exibidos no portfólio foram desenvolvidos pela AZ Work Center ou como projetos pessoais vinculados à atuação profissional de Matheus.
+
+## Contato comercial
+
+Para orçamentos e propostas via AZ Work Center:
+- E-mail: contato@matheusqueiroz.dev.br
+- Telefone/WhatsApp: (77) 98833-4370
+- Site: https://matheusqueiroz.dev.br

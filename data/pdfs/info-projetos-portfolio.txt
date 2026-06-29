@@ -1,0 +1,133 @@
+# Projetos e portfólio — Matheus Queiroz
+
+Repositório GitHub principal: https://github.com/matheusqueiroz92
+Portfólio: https://matheusqueiroz.dev.br
+
+---
+
+## M.Agendy — Plataforma de Agendamentos Inteligentes
+
+Período: jun/2025 – em desenvolvimento
+Repositório: https://github.com/matheusqueiroz92/m-agendy
+
+Descrição: sistema de agendamentos para clínicas e profissionais de saúde, com dashboard analytics, prevenção de conflitos de horário e métricas em tempo real.
+
+Funcionalidades principais:
+- Agendamento online com validação de conflitos
+- Dashboard com indicadores e analytics
+- Sistema de temas (claro/escuro)
+- Gestão de profissionais, serviços e horários
+- Interface moderna e responsiva
+
+Tecnologias: Next.js, TypeScript, Tailwind CSS, PostgreSQL, Drizzle ORM, ShadCN/ui
+
+---
+
+## Sistema Óticas Queiroz — Gestão Empresarial Completa
+
+Período: fev/2025 – mai/2025 (evolução contínua)
+Repositório: https://github.com/matheusqueiroz92/oticas-queiroz-monorepo
+Produção: https://app.oticasqueiroz.com.br/
+
+Descrição: sistema completo de gestão para uma empresa real de óticas, com múltiplos usuários e módulos integrados.
+
+Funcionalidades principais:
+- Controle de estoque e produtos
+- Vendas e PDV
+- Módulo financeiro
+- Relatórios gerenciais
+- Múltiplos perfis de usuário (admin, vendedor, etc.)
+- Autenticação e controle de acesso
+
+Tecnologias: React.js, Next.js, Node.js, TypeScript, MongoDB, Tailwind CSS
+Arquitetura: monorepo
+
+Destaque: sistema em produção servindo operação real — não é apenas projeto de estudo.
+
+---
+
+## M.FinnanceAI — Gestão Financeira Pessoal com IA
+
+Descrição: sistema de gestão financeira pessoal com análise de IA e insights automatizados sobre gastos, categorias e tendências.
+
+Funcionalidades esperadas:
+- Registro de receitas e despesas
+- Categorização inteligente
+- Dashboards e relatórios
+- Insights gerados por inteligência artificial
+
+Tecnologias: stack moderna JavaScript/TypeScript (detalhes no repositório do portfólio)
+
+---
+
+## Task Agent AI — Chatbot com RAG (este projeto)
+
+Descrição: backend de chatbot para o site de portfólio matheusqueiroz.dev.br. Permite que visitantes façam perguntas sobre Matheus, projetos, tecnologias, serviços e experiência.
+
+Funcionalidades:
+- API REST com Fastify
+- RAG com LangChain e OpenAI embeddings
+- Agente que busca documentos antes de responder
+- Suporte a PDF, TXT e MD em data/pdfs/
+- Vector store persistente com pgvector (PostgreSQL)
+
+Tecnologias: Node.js, TypeScript, Fastify, LangChain, OpenAI, pdf-parse
+
+Objetivo: demonstrar habilidades com IA, RAG e integração em produto real do portfólio.
+
+---
+
+## AZ News Engine
+
+Repositório: https://github.com/matheusqueiroz92/az-news-engine
+Descrição: engine/projeto relacionado a conteúdo e notícias (detalhes no repositório).
+
+---
+
+## Birita Express — App de Delivery
+
+Repositório: https://github.com/matheusqueiroz92/birita-express-app-delivery
+Descrição: aplicação de delivery de bebidas.
+Tecnologias: JavaScript
+
+---
+
+## Landing Page — Suzy Brito Advocacia
+
+Repositório: https://github.com/matheusqueiroz92/busca-e-apreensao-suzi-brito-advocacia
+Descrição: landing page para busca e apreensão de veículos — Suzy Brito Advocacia.
+Tecnologias: TypeScript
+
+---
+
+## Color Guess
+
+Repositório: https://github.com/matheusqueiroz92/color-guess
+Descrição: jogo/projeto front-end em JavaScript.
+
+---
+
+## M-Move App
+
+Repositório ativo no GitHub (matheusqueiroz92/m-move-app)
+Descrição: aplicação em desenvolvimento ativo (ver repositório para detalhes atualizados).
+
+---
+
+## Tipos de projetos que Matheus desenvolve para clientes
+
+- Landing pages (simples e exclusivas)
+- Sites institucionais
+- Blogs
+- E-commerce
+- Sistemas de automação
+- CRM e ERP sob demanda
+- Sistemas personalizados conforme necessidade do cliente
+
+Para preços e prazos de cada tipo, consulte info-servicos-precos.txt.
+
+---
+
+## Como Matheus apresenta seu trabalho
+
+Matheus prioriza projetos que resolvem problemas reais de negócio. Valoriza código organizado, stack moderna, performance e experiência do usuário. Muitos projetos do portfólio nasceram de necessidades reais (Óticas Queiroz, agendamentos para clínicas, finanças pessoais).

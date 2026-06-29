@@ -1,0 +1,58 @@
+# Task Agent AI — Chatbot RAG para Portfólio
+
+slug: task-agent-ai
+categoria: projeto
+project_name: Task Agent AI
+site_producao: https://matheusqueiroz.dev.br
+github: repositório local task-agent-ai
+status: em desenvolvimento
+
+## O que é
+
+Backend de chatbot inteligente integrado ao site de portfólio matheusqueiroz.dev.br. Permite que visitantes façam perguntas sobre Matheus Queiroz, projetos, tecnologias, serviços, experiência e currículo.
+
+## Problema que resolve
+
+Visitantes de portfólio querem informações rápidas sem navegar por todas as páginas. Recrutadores e clientes têm perguntas específicas. O chatbot oferece interatividade e demonstra habilidades reais com IA aplicada.
+
+## Funcionalidades principais
+
+- API REST com Fastify (POST /api/rag)
+- RAG (Retrieval-Augmented Generation) com LangChain
+- Embeddings OpenAI (text-embedding-3-small)
+- Agente LangChain que busca documentos antes de responder
+- Base de conhecimento com PDFs, TXT e MD (currículo, projetos, FAQ)
+- Vector store persistente com pgvector (PostgreSQL)
+- Busca com MMR, score threshold e filtro por projeto
+- CORS configurado para o domínio do portfólio
+- Rate limiting para proteção da API
+
+## Stack tecnológica
+
+- Node.js, TypeScript
+- Fastify
+- LangChain, OpenAI API
+- pgvector + PostgreSQL (Neon/Supabase)
+- pdf-parse para currículo em PDF
+
+## Arquitetura e decisões técnicas
+
+Documentos curados em data/pdfs/ e data/projects/ são indexados via CLI (npm run rag:index), não a cada request — reduz custo e latência. Agente com tool buscar_documentos garante respostas grounded nos documentos. Metadados (category, project_slug) permitem busca filtrada por projeto específico.
+
+## Desafios e aprendizados
+
+- Chunking diferenciado para arquivos de projeto vs FAQ
+- Balancear recall (k, fetchK) com precisão (score threshold)
+- Migrar de vector store em memória para pgvector persistente
+- Preparar API para consumo seguro pelo frontend do portfólio
+
+## Perguntas frequentes sobre este projeto
+
+**Como o chatbot sabe responder sobre Matheus?**
+Busca trechos relevantes em documentos indexados (currículo PDF, arquivos de texto sobre projetos, FAQ, serviços) usando embeddings e pgvector, depois o LLM gera a resposta com base nesses trechos.
+
+**Este projeto demonstra quais skills?**
+RAG, LangChain, agentes com tools, embeddings, pgvector, APIs REST, TypeScript e integração de IA em produto real.
+
+**O chatbot inventa informações?**
+Não deve inventar. O system prompt instrui a usar apenas documentos encontrados e indicar contato quando a informação não estiver disponível.

@@ -1,0 +1,107 @@
+# Perguntas frequentes (FAQ) — Chatbot do portfólio Matheus Queiroz
+
+Este arquivo ajuda o chatbot a responder perguntas comuns de visitantes, recrutadores e clientes.
+
+---
+
+## Sobre Matheus
+
+**Quem é Matheus Queiroz?**
+Matheus Souza Queiroz é Engenheiro da Computação, especialista em Engenharia de Software e Desenvolvedor Web Fullstack. Tem 34 anos, mora em Vitória da Conquista (BA), é fundador e diretor da AZ Work Center e desenvolve sites, sistemas e aplicações web.
+
+**Quantos anos de experiência ele tem?**
+Cerca de 10 anos de experiência sólida em desenvolvimento e arquitetura web, somando TI, docência, freelas e atuação empreendedora.
+
+**Onde Matheus mora?**
+Vitória da Conquista, Bahia, Brasil. Nasceu em Itapetinga (BA).
+
+**Matheus trabalha remoto?**
+Sim. Atende projetos e oportunidades remotamente para clientes em todo o Brasil.
+
+---
+
+## Formação
+
+**Qual a formação do Matheus?**
+Engenharia da Computação (FAINOR), especialização em Engenharia de Software (Faculdade Metropolitana), especialização em Engenharia de Segurança do Trabalho (Faculdade Guanambi) e formação Fullstack na Trybe (2022–2023).
+
+**Ele fez algum bootcamp?**
+Sim, concluiu o curso de Desenvolvedor Web Fullstack na Trybe com mais de 1.500 horas de conteúdo prático (2022–2023).
+
+---
+
+## Tecnologias
+
+**Quais tecnologias Matheus domina?**
+React, Next.js, Node.js, TypeScript, Tailwind CSS, PostgreSQL, MongoDB, MySQL, AWS, Docker, Git, LangChain, RAG e integração com IA.
+
+**Qual stack ele prefere?**
+Next.js + TypeScript + Tailwind no frontend; Node.js + Fastify/Express no backend; PostgreSQL ou MongoDB conforme o projeto.
+
+**Matheus sabe Python?**
+Tem conhecimento em Python, mas o foco principal é JavaScript/TypeScript no ecossistema web.
+
+---
+
+## Projetos
+
+**Quais são os principais projetos dele?**
+Óticas Queiroz (sistema de gestão em produção), M.Agendy (agendamentos), M.FinnanceAI (finanças com IA), Task Agent AI (chatbot RAG no portfólio) e diversos sites para clientes.
+
+**Onde ver os projetos?**
+No site https://matheusqueiroz.dev.br e no GitHub https://github.com/matheusqueiroz92
+
+**Tem algum sistema em produção real?**
+Sim. O sistema Óticas Queiroz está em produção em https://app.oticasqueiroz.com.br/
+
+---
+
+## Serviços e contratação
+
+**Matheus aceita freelas?**
+Sim, aceita projetos freelance e desenvolvimento sob demanda.
+
+**Ele está disponível para emprego CLT?**
+Sim, está aberto a oportunidades de emprego como desenvolvedor fullstack.
+
+**Quanto custa um site?**
+Landing page simples a partir de R$ 500; site institucional a partir de R$ 1.500; e-commerce a partir de R$ 2.000. Valores variam conforme escopo.
+
+**Qual o prazo para entregar um site?**
+Landing simples a partir de 2 dias úteis; projetos maiores de 7 a 20+ dias conforme complexidade.
+
+**Como contratar Matheus?**
+WhatsApp (77) 98833-4370, e-mail contato@matheusqueiroz.dev.br ou formulário no site matheusqueiroz.dev.br.
+
+---
+
+## Empresa
+
+**O que é AZ Work Center?**
+Agência de soluções digitais fundada em 2019 por Matheus com a família. Desenvolve sites, sistemas, automações e soluções sob demanda.
+
+**Matheus é só desenvolvedor ou também gerencia?**
+É fundador, Diretor Geral da AZ Work Center e desenvolvedor — atua tanto na gestão quanto no código.
+
+---
+
+## Chatbot e IA
+
+**O que é este chatbot?**
+É um assistente no portfólio matheusqueiroz.dev.br que responde perguntas sobre Matheus usando RAG (busca em documentos) e LangChain. Demonstra habilidades com IA aplicada.
+
+**Como o chatbot sabe responder?**
+Ele busca trechos relevantes em documentos (PDFs e arquivos de texto) indexados com embeddings da OpenAI antes de gerar a resposta.
+
+**Por que usar um chatbot no portfólio?**
+Para dar interatividade ao visitante, responder dúvidas sobre experiência e projetos, e demonstrar competência com RAG, agentes e integração de IA — diferencial em entrevistas e para clientes.
+
+---
+
+## Perguntas que o chatbot NÃO deve inventar
+
+Se não encontrar nos documentos, o assistente deve dizer que não sabe ou indicar contato direto. Exemplos:
+- Salário pretendido ou valores exatos de projetos complexos sem escopo
+- Detalhes pessoais não documentados
+- Compromissos de prazo sem análise do projeto
+- Informações sobre outros profissionais chamados Matheus Queiroz

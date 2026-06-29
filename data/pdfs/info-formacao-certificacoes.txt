@@ -1,0 +1,66 @@
+# Formação acadêmica e certificações — Matheus Queiroz
+
+## Graduação
+
+### Engenharia da Computação — FAINOR
+Instituição: Faculdade Independente do Nordeste (FAINOR)
+Período: 2009 – 2015
+Conclusão: 2016 (formação registrada no LinkedIn como 2009–2015)
+
+Conteúdo relevante: programação, estruturas de dados, algoritmos, arquitetura de computadores, engenharia de software e bases sólidas para desenvolvimento fullstack.
+
+---
+
+## Pós-graduações (especializações)
+
+### Engenharia de Software — Faculdade Metropolitana
+Período: 2020 – 2021
+Local: Ribeirão Preto, SP (EAD)
+
+Foco: metodologias de desenvolvimento, arquitetura de software, gestão de projetos e boas práticas de engenharia. Conhecimento aplicado diretamente nos sistemas complexos que Matheus desenvolve hoje.
+
+### Engenharia de Segurança do Trabalho — Faculdade Guanambi (UNIFG)
+Período: 2014 – 2016
+
+Formação que permitiu atuação como engenheiro de segurança do trabalho antes da transição definitiva para desenvolvimento web em escala comercial.
+
+---
+
+## Formação técnica em desenvolvimento web
+
+### Desenvolvedor Web Fullstack — Trybe
+Período: 2022 – 2023
+Local: Belo Horizonte, MG (remoto)
+Carga: mais de 1.500 horas de conteúdo prático
+
+Módulos concluídos com certificado:
+- Fundamentos do Desenvolvimento Web (jun/2022)
+- Desenvolvimento Front-end (mar/2023)
+- Desenvolvimento Back-end (mai/2023)
+- Ciência da Computação (jul/2023)
+
+Tecnologias abordadas: React.js, Node.js, TypeScript, bancos de dados, metodologias ágeis, testes e boas práticas.
+
+Motivação: apesar de já ser graduado em Engenharia da Computação, Matheus havia passado alguns anos em outras áreas e fez a Trybe para reforçar, atualizar conhecimentos e voltar a atuar na área que sempre foi sua paixão.
+
+---
+
+## Certificações complementares
+
+### Desafio Microsserviços Escaláveis — Rocketseat
+Emitido: junho/2025
+Link público de certificado disponível no perfil LinkedIn.
+
+---
+
+## Formação contínua
+
+Matheus mantém estudo constante em:
+- Next.js e React (versões recentes)
+- TypeScript avançado
+- Arquitetura de software e microsserviços
+- Inteligência artificial aplicada (LangChain, RAG, agentes)
+- DevOps, Docker e cloud
+- UX/UI e boas práticas de produto
+
+Frase que resume sua postura: "Aprender é a única coisa de que a mente nunca se cansa" — citação que ele compartilha publicamente em referência à jornada na Trybe.

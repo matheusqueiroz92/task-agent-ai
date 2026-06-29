@@ -1,0 +1,54 @@
+# M.Agendy — Plataforma de Agendamentos Inteligentes
+
+slug: m-agendy
+categoria: projeto
+project_name: M.Agendy
+site_producao: em desenvolvimento
+github: https://github.com/matheusqueiroz92/m-agendy
+status: em desenvolvimento
+periodo: jun/2025 – presente
+
+## O que é
+
+Plataforma de agendamentos online para clínicas médicas e profissionais de saúde, com dashboard analytics, prevenção de conflitos de horário e métricas em tempo real.
+
+## Problema que resolve
+
+Clínicas e consultórios precisam gerenciar horários de múltiplos profissionais sem conflitos, com visibilidade de ocupação e indicadores para tomada de decisão. Agendas manuais ou planilhas geram erros e perda de produtividade.
+
+## Funcionalidades principais
+
+- Agendamento online com validação automática de conflitos
+- Dashboard com analytics e métricas em tempo real
+- Gestão de profissionais, serviços e horários disponíveis
+- Sistema de temas (modo claro e escuro)
+- Interface moderna e responsiva
+- Prevenção de double-booking (dois agendamentos no mesmo horário)
+
+## Stack tecnológica
+
+- Next.js, TypeScript
+- Tailwind CSS, ShadCN/ui
+- PostgreSQL
+- Drizzle ORM
+
+## Arquitetura e decisões técnicas
+
+Next.js App Router para frontend e API routes. PostgreSQL com Drizzle ORM para type-safety nas queries. ShadCN/ui para componentes acessíveis e consistentes. Lógica de conflito de horários no backend para garantir integridade dos dados.
+
+## Desafios e aprendizados
+
+- Implementar prevenção de conflitos de agendamento com regras de negócio claras
+- Construir dashboard analytics com métricas úteis para gestores de clínicas
+- Balancear UX simples para o paciente com controle avançado para o administrador
+
+## Perguntas frequentes sobre este projeto
+
+**Para quem é o M.Agendy?**
+Clínicas, consultórios e profissionais de saúde que precisam de agendamento online inteligente.
+
+**O M.Agendy já está em produção?**
+Está em desenvolvimento ativo. Repositório: https://github.com/matheusqueiroz92/m-agendy
+
+**Quais tecnologias Matheus usou no M.Agendy?**
+Next.js, TypeScript, Tailwind CSS, PostgreSQL, Drizzle ORM e ShadCN/ui.

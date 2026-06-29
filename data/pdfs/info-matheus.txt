@@ -1,0 +1,67 @@
+# Perfil geral — Matheus Souza Queiroz
+
+## Quem é Matheus Queiroz?
+
+Matheus Souza Queiroz é Engenheiro da Computação, especialista em Engenharia de Software, e atua como Desenvolvedor Web Fullstack. Tem 34 anos (nascido em 13/05/1992) e cerca de 10 anos de experiência sólida em desenvolvimento, arquitetura web e soluções digitais.
+
+É um dos fundadores e Diretor Geral da AZ Work Center, agência de soluções digitais sediada em Vitória da Conquista (BA). Desenvolve sites, aplicações web, sistemas de gestão, automações e soluções sob demanda para empresas e profissionais.
+
+Matheus combina formação acadêmica em engenharia, experiência empreendedora e prática intensiva com tecnologias modernas como React, Next.js, Node.js e TypeScript. Também possui background em engenharia de segurança do trabalho e docência, o que reforça habilidades de comunicação, gestão e resolução de problemas.
+
+## Resumo profissional
+
+Desenvolvedor Fullstack especializado em soluções web escaláveis. Experiência comprovada na criação de sistemas complexos nas áreas de gestão empresarial, saúde, finanças pessoais, e-commerce e delivery. Atua desde o levantamento de requisitos até deploy e manutenção.
+
+Principais diferenciais:
+- Experiência real com sistemas em produção servindo múltiplos usuários
+- Visão de negócio (fundador e gestor de agência)
+- Domínio de frontend, backend, banco de dados e cloud
+- Interesse e prática com inteligência artificial aplicada a produtos web
+- Comunicação clara com clientes e equipes técnicas
+
+## Informações pessoais
+
+- Nome completo: Matheus Souza Queiroz
+- Data de nascimento: 13/05/1992
+- Idade: 34 anos
+- Naturalidade: Itapetinga, Bahia
+- Cidade atual: Vitória da Conquista, Bahia, Brasil
+- Site/portfólio: https://matheusqueiroz.dev.br
+- GitHub: https://github.com/matheusqueiroz92
+- LinkedIn: https://www.linkedin.com/in/matheus-queiroz-dev-web
+- Instagram: @matheusgiga
+- E-mails: contato@matheusqueiroz.dev.br, gigamatheus@gmail.com, matheus_giga@hotmail.com
+- Telefone/WhatsApp: (77) 98833-4370
+- Empresa: AZ Work Center
+
+## História de vida e trajetória
+
+Nasceu em Itapetinga (BA) e morou na cidade até os 17 anos. Em seguida mudou-se para Vitória da Conquista (BA), onde reside até hoje.
+
+Cursou Engenharia da Computação na FAINOR (Faculdade Independente do Nordeste) e concluiu o curso em 2016. Também concluiu especialização em Engenharia de Segurança do Trabalho em 2017 pela Faculdade Guanambi.
+
+Durante parte da carreira, atuou como engenheiro de segurança do trabalho: ministrava palestras e minicursos, prestava assessoria e consultoria, e foi professor do curso técnico em segurança do trabalho na rede pública estadual de ensino (CEEPS Adélia Teixeira, 2018–2019).
+
+Paralelamente, trabalhou como freelancer desenvolvendo sites e aplicações web. Entre 2016 e 2018, foi Analista de Suporte de TI nas Óticas Queiroz em Itapetinga — experiência que mais tarde fundamentou o desenvolvimento de um sistema completo de gestão para a empresa.
+
+Em 2019, junto com o pai e o irmão, fundou a AZ Work Center. Em 2021 concluiu especialização em Engenharia de Software pela Faculdade Metropolitana; nesse período nasceu seu filho, Noah.
+
+Em 2022–2023 concluiu o curso de Desenvolvedor Web Fullstack na Trybe (mais de 1.500 horas de conteúdo prático), reforçando e atualizando conhecimentos com stack moderna.
+
+Atualmente dirige a AZ Work Center e desenvolve aplicações web e sistemas sob demanda, além de atuar em projetos próprios e de clientes.
+
+## Idiomas
+
+- Português: nativo
+- Inglês: proficiência limitada para trabalho (leitura técnica e comunicação básica)
+- Espanhol: proficiência limitada para trabalho
+
+## Disponibilidade e objetivos
+
+Matheus está disponível para:
+- Desenvolvimento de novos projetos (sites, sistemas, automações, e-commerce, CRM, ERP)
+- Parcerias e freelas
+- Oportunidades de emprego como desenvolvedor fullstack
+- Consultoria técnica e evolução de sistemas existentes
+
+Para orçamentos, prazos e contato comercial, consulte também o arquivo info-servicos-precos.txt.

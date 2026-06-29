@@ -1,0 +1,89 @@
+# Tecnologias e habilidades — Matheus Queiroz
+
+## Visão geral
+
+Matheus Queiroz domina o desenvolvimento web fullstack, do frontend ao backend, passando por bancos de dados, integrações, deploy e boas práticas de engenharia de software.
+
+## Frontend
+
+- React.js e React Native (conhecimento)
+- Next.js (App Router, SSR, SSG, rotas API)
+- TypeScript
+- JavaScript (ES6+)
+- HTML5 e CSS3
+- Tailwind CSS
+- ShadCN/ui
+- Design responsivo e interfaces modernas
+- Consumo de APIs REST e GraphQL
+
+## Backend
+
+- Node.js
+- Express.js
+- Fastify
+- APIs REST
+- GraphQL (conhecimento)
+- Python (conhecimento e scripts)
+- Autenticação e autorização (JWT, sessões)
+- Integração com gateways de pagamento
+- Arquitetura de microsserviços (estudos e desafios práticos)
+
+## Banco de dados
+
+- PostgreSQL
+- MongoDB
+- MySQL
+- Drizzle ORM
+- Modelagem relacional e NoSQL
+- Migrations e seeds
+
+## Cloud, DevOps e infraestrutura
+
+- AWS (deploy e serviços cloud)
+- Docker
+- CI/CD
+- Linux
+- Git e GitHub (versionamento, branches, pull requests)
+- Hospedagem e deploy de aplicações web
+
+## Inteligência artificial e automação
+
+- Integração de IA em aplicações web
+- LangChain e agentes com LLM
+- RAG (Retrieval-Augmented Generation)
+- OpenAI API (chat e embeddings)
+- Automações de processos e fluxos de trabalho
+- Análise de dados com insights automatizados (ex.: M.FinnanceAI)
+
+## Metodologias e soft skills
+
+- Metodologias ágeis (Scrum, Kanban)
+- Levantamento e análise de requisitos
+- Gestão de projetos
+- Comunicação técnica com clientes e equipes
+- Documentação de sistemas
+- Resolução de problemas complexos
+- Trabalho em equipe e liderança (como diretor de agência)
+
+## Áreas de domínio (negócio)
+
+- Gestão empresarial (estoque, vendas, financeiro, relatórios)
+- Saúde (agendamentos e clínicas)
+- Finanças pessoais
+- E-commerce e delivery
+- Landing pages e sites institucionais
+- CRM e ERP sob demanda
+
+## Certificações relevantes (tecnologia)
+
+- Trybe — Módulos: Fundamentos, Front-end, Back-end, Ciência da Computação (2022–2023)
+- Rocketseat — Desafio Microsserviços Escaláveis (jun/2025)
+
+## Stack preferida para novos projetos
+
+Frontend: Next.js + TypeScript + Tailwind CSS + ShadCN/ui
+Backend: Node.js + Fastify ou Express + TypeScript
+Banco: PostgreSQL (preferencial) ou MongoDB conforme o caso
+Deploy: Docker + cloud (AWS ou similar)
+
+Matheus escolhe a stack conforme requisitos do projeto, prazo, escala e manutenção futura — não aplica a mesma solução para todos os casos.

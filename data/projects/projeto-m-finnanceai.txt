@@ -1,0 +1,52 @@
+# M.FinnanceAI — Gestão Financeira Pessoal com IA
+
+slug: m-finnanceai
+categoria: projeto
+project_name: M.FinnanceAI
+site_producao: em desenvolvimento
+github: https://github.com/matheusqueiroz92
+status: em desenvolvimento
+
+## O que é
+
+Sistema de gestão financeira pessoal com análise de inteligência artificial e insights automatizados sobre gastos, categorias e tendências financeiras.
+
+## Problema que resolve
+
+Pessoas têm dificuldade em entender para onde vai o dinheiro, categorizar gastos e identificar padrões. Planilhas manuais são trabalhosas e não geram insights proativos. O M.FinnanceAI combina registro de transações com IA para análise inteligente.
+
+## Funcionalidades principais
+
+- Registro de receitas e despesas
+- Categorização de transações
+- Dashboards e relatórios visuais
+- Insights gerados por inteligência artificial
+- Análise de tendências de gastos
+- Visão consolidada da saúde financeira pessoal
+
+## Stack tecnológica
+
+- JavaScript/TypeScript (ecossistema web moderno)
+- Integração com APIs de IA para insights automatizados
+- Frontend e backend com stack fullstack de Matheus Queiroz
+
+## Arquitetura e decisões técnicas
+
+Separação entre registro de dados financeiros (CRUD) e camada de análise com IA. Insights gerados a partir dos dados históricos do usuário, permitindo recomendações contextualizadas sem expor dados sensíveis desnecessariamente.
+
+## Desafios e aprendizados
+
+- Integrar IA de forma útil (insights acionáveis, não genéricos)
+- Modelar categorias financeiras flexíveis
+- Apresentar dados complexos de forma simples no dashboard
+
+## Perguntas frequentes sobre este projeto
+
+**O que o M.FinnanceAI faz de diferente?**
+Combina gestão financeira pessoal tradicional com análise de IA para insights automatizados sobre gastos e tendências.
+
+**Está em produção?**
+Está em desenvolvimento. Faz parte do portfólio de projetos de Matheus Queiroz.
+
+**Matheus tem experiência com IA?**
+Sim. Além do M.FinnanceAI, desenvolveu o Task Agent AI (chatbot com RAG) e utiliza LangChain, OpenAI e embeddings em projetos reais.
