@@ -66,7 +66,7 @@ A aplicação também expõe um endpoint de demonstração de agente com ferrame
 ## Arquitetura
 
 ```
-┌─────────────────┐     POST /api/rag      ┌──────────────────┐
+┌─────────────────┐     POST /api/rag        ┌──────────────────┐
 │  Frontend       │ ───────────────────────► │  Fastify API     │
 │  (portfólio)    │ ◄─────────────────────── │  rag.routes.ts   │
 └─────────────────┘     { resposta }         └────────┬─────────┘
@@ -75,19 +75,19 @@ A aplicação também expõe um endpoint de demonstração de agente com ferrame
                                             ┌──────────────────┐
                                             │  rag.service.ts  │
                                             │  Agente LangChain│
-                                            └────────┬─────────┘
+                                            └─────────┬────────┘
                                                       │ tool call
                                                       ▼
                                             ┌──────────────────┐
                                             │  rag.tools.ts    │
                                             │ buscar_documentos│
-                                            └────────┬─────────┘
+                                            └─────────┬────────┘
                                                       │
                                                       ▼
                                             ┌──────────────────┐
                                             │  search.ts       │
                                             │  MMR + threshold │
-                                            └────────┬─────────┘
+                                            └─────────┬────────┘
                                                       │
                                                       ▼
                                             ┌──────────────────┐
@@ -106,16 +106,16 @@ Indexação (offline):
 
 ## Stack tecnológica
 
-| Camada | Tecnologia |
-|--------|------------|
-| Runtime | Node.js, TypeScript |
-| HTTP | Fastify 5 |
-| IA / Agentes | LangChain, OpenAI API |
-| Embeddings | `text-embedding-3-small` |
-| Vector store | `@langchain/pgvector` + PostgreSQL |
-| PDF | `pdf-parse` |
-| Validação | Zod |
-| Segurança | `@fastify/cors`, `@fastify/rate-limit` |
+|    Camada    |               Tecnologia               |
+|--------------|----------------------------------------|
+|    Runtime   |           Node.js, TypeScript          |
+|     HTTP     |                Fastify 5               |
+| IA / Agentes |          LangChain, OpenAI API         |
+|  Embeddings  |         `text-embedding-3-small`       |
+| Vector store |   `@langchain/pgvector` + PostgreSQL   |
+|      PDF     |               `pdf-parse`              |
+|   Validação  |                   Zod                  |
+|   Segurança  | `@fastify/cors`, `@fastify/rate-limit` |
 
 ---
 
@@ -160,20 +160,20 @@ O servidor sobe em `http://0.0.0.0:3344` por padrão. Na inicialização, se o v
 
 Copie `.env.example` para `.env` e preencha os valores:
 
-| Variável | Obrigatória | Padrão | Descrição |
-|----------|-------------|--------|-----------|
-| `OPENAI_API_KEY` | Sim | — | Chave da API OpenAI |
-| `OPENAI_MODEL` | Não | `gpt-4o-mini` | Modelo de chat usado pelos agentes |
-| `DATABASE_URL` | Sim | — | Connection string PostgreSQL (`?sslmode=require` em cloud) |
-| `DATABASE_SSL` | Não | `true` | Habilita SSL na conexão (`true` / `false`) |
-| `RAG_COLLECTION` | Não | `portfolio-matheus` | Nome da coleção no pgvector |
-| `RAG_TABLE_NAME` | Não | `rag_documents` | Tabela de vetores (apenas `a-z`, `0-9`, `_`) |
-| `PORT` | Não | `3344` | Porta HTTP do servidor |
-| `HOST` | Não | `0.0.0.0` | Host de bind |
-| `NODE_ENV` | Não | `development` | `development` ou `production` |
-| `CORS_ORIGINS` | Não | domínios do portfólio | Origens permitidas, separadas por vírgula |
-| `RATE_LIMIT_MAX` | Não | `20` | Máximo de requisições por janela no `/api/rag` |
-| `RATE_LIMIT_TIME_WINDOW` | Não | `1 minute` | Janela do rate limit (formato `@fastify/rate-limit`) |
+|         Variável         | Obrigatória |         Padrão        |                         Descrição                          |
+|--------------------------|-------------|-----------------------|------------------------------------------------------------|
+|     `OPENAI_API_KEY`     |     Sim     |           —           |                     Chave da API OpenAI                    |
+|     `OPENAI_MODEL`       |     Não     |     `gpt-4o-mini`     |             Modelo de chat usado pelos agentes             |
+|     `DATABASE_URL`       |     Sim     |           —           | Connection string PostgreSQL (`?sslmode=require` em cloud) |
+|     `DATABASE_SSL`       |     Não     |         `true`        |         Habilita SSL na conexão (`true` / `false`)         |
+|     `RAG_COLLECTION`     |     Não     |  `portfolio-matheus`  |                   Nome da coleção no pgvector              |
+|     `RAG_TABLE_NAME`     |     Não     |    `rag_documents`    |         Tabela de vetores (apenas `a-z`, `0-9`, `_`)       |
+|          `PORT`          |     Não     |         `3344`        |                    Porta HTTP do servidor                  |
+|          `HOST`          |     Não     |       `0.0.0.0`       |                        Host de bind                        |
+|        `NODE_ENV`        |     Não     |     `development`     |                `development` ou `production`               |
+|      `CORS_ORIGINS`      |     Não     | domínios do portfólio |          Origens permitidas, separadas por vírgula         |
+|     `RATE_LIMIT_MAX`     |     Não     |         `20`          |       Máximo de requisições por janela no `/api/rag`       |
+| `RATE_LIMIT_TIME_WINDOW` |     Não     |       `1 minute`      |    Janela do rate limit (formato `@fastify/rate-limit`)    |
 
 Em **desenvolvimento**, além das origens configuradas em `CORS_ORIGINS`, requisições de `http://localhost:*` são aceitas automaticamente.
 
@@ -232,8 +232,8 @@ O nome do arquivo define a categoria automaticamente:
 
 | Padrão no nome | Categoria |
 |----------------|-----------|
-| `curriculo*` | `curriculo` |
-| `info-faq*` | `faq` |
+|  `curriculo*`  | `curriculo` |
+|   `info-faq*`  | `faq` |
 | `info-servicos*`, `info-projects*` | `servico` |
 | `projeto-*` | `projeto` |
 | `info-matheus*`, `info-experiencia*`, etc. | `perfil` |
